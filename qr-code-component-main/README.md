@@ -4,14 +4,16 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-- [Author](#author)
+- [Frontend Mentor - QR code component solution](#frontend-mentor---qr-code-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+  - [Author](#author)
 
 ## Overview
 
@@ -23,8 +25,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Frontendmentor](https://www.frontendmentor.io/solutions/qrcodecomponentmain-Jc5cJh9QCt)
-- Live Site URL: [Netlify](preeminent-vacherin-913efc.netlify.app)
-- Live Site URL: [Github Pages](https://aishat02.github.io/qr-code-component-main/)
+- Live Site URL: [Netlify](https://aris-qr-code-challenge.netlify.app/)
 
 ## My process
 
