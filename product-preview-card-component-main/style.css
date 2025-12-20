@@ -1,0 +1,115 @@
+:root {
+  --Darkcyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  --Verydarkblue: hsl(212, 21%, 14%);
+  --Darkgrayishblue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+}
+body {
+  background-color: var(--Cream);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desktop-design {
+  display: none;
+}
+.mobile-design {
+  width: 335px;
+  border-radius: 10px 10px 0 0;
+}
+.container {
+  width: 335px;
+  background-color: var(--White);
+  border-radius: 10px;
+}
+.space-container {
+  padding: 0 1.5em 2em;
+}
+.letter-space {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 0;
+}
+h1 {
+  font-size: 30px;
+  padding-right: 1em;
+  line-height: 1em;
+  margin-top: 5px;
+  font-family: "Fraunces", serif;
+}
+p {
+  line-height: 1.7em;
+  color: var(--Darkgrayishblue);
+}
+.old-price {
+  color: var(--Darkgrayishblue);
+  text-decoration: line-through;
+  margin: auto 1em;
+}
+.new-price {
+  color: var(--Darkcyan);
+  font-size: 30px;
+  margin: 0;
+  font-family: "Fraunces", serif;
+  font-weight: bold;
+}
+.price {
+  display: flex;
+  margin-bottom: 1em;
+}
+button {
+  display: flex;
+  padding: 1em;
+  border: 1px solid var(--Darkcyan);
+  border-radius: 10px;
+  width: 100%;
+  justify-content: center;
+  color: var(--White);
+  font-weight: bold;
+  background-color: var(--Darkcyan);
+}
+button:hover {
+  cursor: url("./images/hand-pointer.svg"), auto;
+  border-color: #1a4031;
+  background-color: #1a4031;
+}
+.cart {
+  padding-right: 10px;
+}
+.attribution {
+  margin-top: 1.5em;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (min-width: 1200px) {
+  .mobile-design {
+    display: none;
+  }
+  .desktop-design {
+    display: block;
+    border-radius: 10px 0 0 10px;
+  }
+  .desktop-container {
+    height: 440px;
+    display: flex;
+  }
+  .container {
+    width: 300px;
+    border-radius: 0 10px 10px 0;
+  }
+  .space-container {
+    padding: 1.5em 2em;
+  }
+  h1 {
+    padding: 10px 2em 0 0;
+  }
+  .new-price {
+    padding-right: 2px;
+  }
+}
