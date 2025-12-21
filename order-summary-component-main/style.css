@@ -1,0 +1,111 @@
+:root {
+  --Paleblue: hsl(225, 100%, 94%);
+  --Brightblue: hsl(245, 75%, 52%);
+  --Verypaleblue: hsl(225, 100%, 98%);
+  --Desaturatedblue: hsl(224, 23%, 55%);
+  --Darkblue: hsl(223, 47%, 23%);
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--Paleblue);
+  background-image: url("../order-summary-component-main/images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.container {
+  border-radius: 20px;
+  width: 310px;
+  box-shadow: 0 6px 10px -5px var(--Desaturatedblue);
+  background-color: white;
+}
+.hero {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+h2,
+.plan {
+  font-weight: bolder;
+  color: var(--Darkblue);
+}
+.text {
+  padding: 0 1.6em 0.3em;
+  line-height: 22px;
+  color: var(--Desaturatedblue);
+}
+p {
+  color: var(--Desaturatedblue);
+}
+.mini-container {
+  background-color: whitesmoke;
+  margin: auto;
+  width: 80%;
+  border-radius: 8px;
+  display: flex;
+}
+.icon {
+  margin: auto;
+  width: 42px;
+  height: 42px;
+}
+.link {
+  margin: auto auto auto 2em;
+}
+button {
+  display: block;
+  margin: 1.6em auto 0;
+  width: 80%;
+  border: none;
+  font-weight: bold;
+}
+.payment-button {
+  color: var(--Verypaleblue);
+  box-shadow: 0 12px 30px -10px var(--Desaturatedblue);
+  border-radius: 10px;
+  padding: 14px 0;
+  background-color: var(--Brightblue);
+}
+.cancel-button {
+  background-color: transparent;
+  padding: 0.5em 0 2.3em;
+  color: var(--Desaturatedblue);
+}
+.attribution {
+  padding-top: 2em;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (min-width: 1200px) {
+  body {
+    background-image: url("../order-summary-component-main/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .container {
+    width: 380px;
+  }
+  .link {
+    margin-left: 3.5em;
+  }
+  button:active,
+  .link:active {
+    cursor: pointer;
+  }
+  .payment-button:active {
+    background-color: #766cf1;
+  }
+  .link:active {
+    color: #766cf1;
+    text-decoration: none;
+  }
+  .cancel-button:active {
+    font-weight: bolder;
+    color: var(--Darkblue);
+  }
+}
