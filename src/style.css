@@ -1,0 +1,211 @@
+:root {
+  --Softorange: hsl(35, 77%, 62%);
+  --Softred: hsl(5, 85%, 63%);
+  --Off-white: hsl(36, 100%, 99%);
+  --Grayishblue: hsl(233, 8%, 79%);
+  --Darkgrayishblue: hsl(236, 13%, 42%);
+  --Verydarkblue: hsl(240, 100%, 5%);
+}
+.gap-4 {
+  gap: 1.9rem !important;
+}
+body {
+  margin: 1em auto 0;
+  width: 375px !important;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+.collapse {
+  flex-grow: 0 !important;
+}
+.nav-link {
+  font-weight: 500;
+}
+.offcanvas-md {
+  width: 66.5% !important;
+}
+.offcanvas-body {
+  font-size: 18px;
+  margin: 4.65em 0 0 0.3em;
+  line-height: 1.79em;
+}
+.offcanvas-backdrop {
+  height: 100% !important;
+}
+.btn-close {
+  background: url("../assets/images/icon-menu-close.svg") no-repeat;
+  margin: calc(-0.5 * var(--bs-offcanvas-padding-y))
+    calc(1.1 * var(--bs-offcanvas-padding-x))
+    calc(-3.9 * var(--bs-offcanvas-padding-y)) auto !important;
+}
+.web3 {
+  margin: 0.3em 0 1.55em;
+}
+h1 {
+  font-size: 38.3px;
+  color: var(--Verydarkblue);
+  line-height: 1.05em;
+  letter-spacing: 2.1px;
+}
+.h1-text {
+  padding: 0.46em 0 0.05em;
+  line-height: 1.7em;
+  color: var(--Darkgrayishblue);
+  margin-bottom: 0 !important;
+}
+.read-more {
+  background-color: var(--Softred);
+  color: var(--Verydarkblue);
+  border-color: var(--Softred) !important;
+  font-size: 14px;
+  border-radius: 0;
+  letter-spacing: 4.3px;
+  height: 48px;
+  width: 185px;
+  padding-top: 7px;
+}
+.updates {
+  margin: 4em 0 2.75em;
+  padding: 1.37em 1.3em 0.5em;
+  background-color: var(--Verydarkblue) !important;
+}
+.updates h2 {
+  font-size: 37.5px;
+  color: var(--Softorange);
+  letter-spacing: 3px;
+  margin-bottom: 28px;
+  font-weight: 700;
+}
+.updates h3,
+hr {
+  color: var(--Off-white);
+}
+.updates h3 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 1.6em;
+  letter-spacing: 0.65px;
+}
+.updates p {
+  color: var(--Darkgrayishblue);
+  line-height: 26px;
+  margin-bottom: 28px;
+}
+hr {
+  margin-top: 1.85em;
+}
+.row {
+  padding-right: 0 !important;
+  margin: 0 !important;
+}
+.mobile {
+  margin-top: 19.7px;
+  margin-bottom: 32.5px;
+  gap: 15px;
+}
+.row h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--Softred);
+  margin-top: -4px;
+  margin-bottom: 9px;
+}
+.row h4 {
+  font-size: 16.8px;
+  line-height: 24px;
+  font-weight: 800;
+}
+.row p {
+  line-height: 26px;
+  margin-bottom: 0 !important;
+  color: var(--Darkgrayishblue);
+}
+footer .attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (min-width: 350px) {
+  .mobile {
+    gap: 24px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    width: 720px !important;
+    margin: 5.1em auto 0;
+  }
+  .navbar-nav {
+    gap: 24px;
+  }
+  .b-nav {
+    padding-bottom: 2.75em;
+  }
+  .news-container,
+  .row {
+    width: 96% !important;
+    margin: 0 auto !important;
+  }
+  .web3 {
+    margin: 0 0 1em;
+    padding-bottom: 1em;
+  }
+  .updates {
+    margin: 0;
+    width: 100%;
+  }
+  .mobile {
+    margin-bottom: 0;
+    margin-right: 21px;
+    padding: 0 !important;
+  }
+  .nav-link:hover,
+  .row h4:hover {
+    color: var(--Softred);
+    cursor: url("../assets/images/cursor.svg"), auto;
+  }
+  .read-more:hover {
+    color: var(--Off-white);
+    background-color: var(--Verydarkblue);
+    border-color: var(--Verydarkblue) !important;
+    cursor: url("../assets/images/cursor.svg"), auto;
+  }
+  .updates h3:hover {
+    color: var(--Softorange);
+    cursor: url("../assets/images/cursor.svg"), auto;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    width: 1155px !important;
+  }
+  .news-container,
+  .row {
+    width: 98% !important;
+  }
+  h1 {
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 800;
+  }
+  .h1-text {
+    width: 353px;
+    padding-right: 10px;
+  }
+  .read-more {
+    margin-top: 5px;
+  }
+  .updates {
+    max-width: 360px;
+    padding: 1.8em 1.3em 0 1.5em;
+  }
+  .updates h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+  .updates h3 {
+    margin-top: 1.5em;
+  }
+  .updates p {
+    max-width: 302px;
+  }
+}
