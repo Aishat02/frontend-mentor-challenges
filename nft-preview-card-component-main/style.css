@@ -1,0 +1,100 @@
+:root {
+  --Softblue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Verydarkbluemain: hsl(217, 54%, 11%);
+  --Verydarkbluecard: hsl(216, 50%, 16%);
+  --Verydarkblueline: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+body {
+  font-family: "Outfit", sans-serif;
+  overflow: auto;
+  color: var(--White);
+  background-color: var(--Verydarkbluemain);
+  min-height: 100vh;
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  margin: 2em 0;
+}
+.equilibrium {
+  border-radius: 10px;
+  width: 310px;
+}
+.eye {
+  position: absolute;
+  top: auto;
+  right: auto;
+  padding: 7.3em;
+  opacity: 0;
+  border-radius: 10px;
+  background-color: rgba(0, 148, 160, 0.7);
+}
+.image:hover .eye {
+  opacity: 1;
+  cursor: pointer;
+}
+.border-container {
+  border-radius: 10px;
+  padding-bottom: 1.5em;
+  box-shadow: 0px 20px 0 2.5em #0c192c;
+}
+.container {
+  background-color: var(--Verydarkbluecard);
+  max-width: 310px;
+  padding: 1.2em 1.2em 1em;
+  border-radius: 15px;
+  box-shadow: 0px 2em 0 1em #0c1729;
+}
+h1 {
+  font-size: 21px;
+}
+.blue-space {
+  line-height: 1.5em;
+  margin-bottom: 0;
+  color: var(--Softblue);
+}
+.cyan-text {
+  padding-right: 6em;
+  color: var(--Cyan);
+}
+.blue-text {
+  color: var(--Softblue);
+}
+img {
+  margin: auto 2px auto 0;
+}
+.mini-container {
+  display: flex;
+  border-bottom: 1px solid var(--Verydarkblueline);
+}
+.avatar {
+  width: 30px;
+  border: 1px solid var(--White);
+  border-radius: 50%;
+}
+.small-container {
+  display: flex;
+  margin-top: 1em;
+}
+.blue-text2 {
+  color: var(--Softblue);
+}
+.adjust {
+  margin: auto 10px;
+}
+.attribution {
+  font-size: 14px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+h1:hover,
+.white-text:hover {
+  color: var(--Cyan);
+  cursor: pointer;
+}
