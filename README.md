@@ -44,7 +44,8 @@ This repository contains my solutions to various Frontend Mentor challenges. Eac
 
 | Challenge                    | Live Demo                                                    | Source Code                                                                                                 | Key Technologies        |
 | :--------------------------- | :----------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- | :---------------------- |
-| **Loopstudios Landing Page** | [View Demo](https://aris-loopstudios-challenge.netlify.app/) | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/loopstudios-landing-page-main) | `HTML` `CSS` `JS` |
+| **Loopstudios Landing Page** | [View Demo](https://aris-loopstudios-challenge.netlify.app/) | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/loopstudios-landing-page-main) | `HTML` `CSS` `JS`       |
+| **Advice Generator App**     | [View Demo](https://aris-advice-generator-app.netlify.app/)  | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/advice-generator-app-main)     | `HTML` `CSS` `JS` `API` |
 
 ### Intermediate Level
 
