@@ -42,7 +42,9 @@ This repository contains my solutions to various Frontend Mentor challenges. Eac
 
 ### Junior Level
 
-_More challenges coming soon..._
+| Challenge                    | Live Demo                                                    | Source Code                                                                                                 | Key Technologies        |
+| :--------------------------- | :----------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- | :---------------------- |
+| **Loopstudios Landing Page** | [View Demo](https://aris-loopstudios-challenge.netlify.app/) | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/loopstudios-landing-page-main) | `HTML` `CSS` `JS` |
 
 ### Intermediate Level
 
