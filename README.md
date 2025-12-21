@@ -29,15 +29,16 @@ This repository contains my solutions to various Frontend Mentor challenges. Eac
 
 ### Newbie Level
 
-| Challenge                     | Live Demo                                                         | Source Code                                                                                                       | Key Technologies  |
-| :---------------------------- | :---------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------- | :---------------- |
-| **QR Code Component**         | [View Demo](https://aris-qr-code-challenge.netlify.app/)          | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/qr-code-component-main)              | `HTML` `CSS`      |
-| **Blog Preview Card**         | [View Demo](https://aris-blog-preview-card.netlify.app/)          | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/blog-preview-card-main)              | `HTML` `CSS`      |
-| **Product Preview Card**      | [View Demo](https://aris-product-preview-card.netlify.app/)       | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/product-preview-card-component-main) | `HTML` `CSS`      |
-| **Order Summary Component**   | [View Demo](https://aris-order-summary-challenge.netlify.app/)    | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/order-summary-component-main)        | `HTML` `CSS`      |
-| **NFT Preview Card**          | [View Demo](https://aris-nft-preview-card-challenge.netlify.app/) | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/nft-preview-card-component-main)     | `HTML` `CSS`      |
-| **Social Links Profile**      | [View Demo](https://aris-article-preview-challenge.netlify.app/)  | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/social-links-profile-main)           | `HTML` `CSS`      |
-| **Article Preview Component** | [View Demo](https://aris-article-preview-challenge.netlify.app/)  | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/article-preview-component-main)      | `HTML` `CSS` `JS` |
+| Challenge                         | Live Demo                                                           | Source Code                                                                                                       | Key Technologies  |
+| :-------------------------------- | :------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------- | :---------------- |
+| **QR Code Component**             | [View Demo](https://aris-qr-code-challenge.netlify.app/)            | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/qr-code-component-main)              | `HTML` `CSS`      |
+| **Blog Preview Card**             | [View Demo](https://aris-blog-preview-card.netlify.app/)            | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/blog-preview-card-main)              | `HTML` `CSS`      |
+| **Product Preview Card**          | [View Demo](https://aris-product-preview-card.netlify.app/)         | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/product-preview-card-component-main) | `HTML` `CSS`      |
+| **Order Summary Component**       | [View Demo](https://aris-order-summary-challenge.netlify.app/)      | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/order-summary-component-main)        | `HTML` `CSS`      |
+| **NFT Preview Card**              | [View Demo](https://aris-nft-preview-card-challenge.netlify.app/)   | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/nft-preview-card-component-main)     | `HTML` `CSS`      |
+| **Social Links Profile**          | [View Demo](https://aris-article-preview-challenge.netlify.app/)    | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/social-links-profile-main)           | `HTML` `CSS`      |
+| **Article Preview Component**     | [View Demo](https://aris-article-preview-challenge.netlify.app/)    | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/article-preview-component-main)      | `HTML` `CSS` `JS` |
+| **Base Apparel Coming Soon Page** | [View Demo](http://aris-base-apparel-coming-soon-page.netlify.app/) | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/base-apparel-coming-soon-page)       | `HTML` `CSS` `JS` |
 
 ### Junior Level
 
