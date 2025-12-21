@@ -1,0 +1,170 @@
+:root {
+  --VeryDarkGrayishBlue: hsl(217, 19%, 35%);
+  --DesaturatedDarkBlue: hsl(214, 17%, 51%);
+  --GrayishBlue: hsl(212, 23%, 69%);
+  --LightGrayishBlue: hsl(210, 46%, 95%);
+}
+body {
+  background-color: #edf2f8;
+  color: var(--DesaturatedDarkBlue);
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 13px;
+  font-family: "Manrope", sans-serif;
+}
+.drawers {
+  border-radius: 10px 10px 0 0;
+  width: 327px;
+  height: 200px;
+}
+main {
+  border-radius: 10px;
+  width: 327px;
+  height: 512px;
+  background-color: #ffffff;
+}
+.space-container {
+  word-spacing: 1px;
+  text-align: left;
+  padding: 2.6em 1.8em 1em 2.4em;
+}
+header {
+  line-height: 1.5em;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--VeryDarkGrayishBlue);
+}
+p {
+  line-height: 1.5em;
+  padding-right: 1em;
+}
+button {
+  padding: 8px;
+  margin-left: 45px;
+  background-color: var(--LightGrayishBlue);
+  border-radius: 50px;
+  border: 0;
+  cursor: pointer;
+  position: relative;
+  top: 6px;
+}
+.profile-container {
+  display: block;
+  position: relative;
+}
+.profile {
+  margin-top: 2.5em;
+  display: flex;
+  gap: 17px;
+  line-height: 1.5em;
+}
+.avatar {
+  width: 40px;
+  border-radius: 50%;
+}
+.name {
+  font-weight: bold;
+  color: var(--VeryDarkGrayishBlue);
+}
+.date {
+  color: var(--DesaturatedDarkBlue);
+  font-weight: 500;
+}
+.share-container {
+  background-color: var(--VeryDarkGrayishBlue);
+  display: none;
+  justify-content: left;
+  border-radius: 0 0 10px 10px;
+  padding: 1.6em;
+  width: 285px;
+  position: absolute;
+  top: -12px;
+  left: -31px;
+}
+.share-text {
+  font-size: 13px;
+  margin-top: 3px;
+  letter-spacing: 5px;
+  padding: 0 15px;
+  text-transform: uppercase;
+}
+.share-images {
+  display: flex;
+  height: 20px;
+  gap: 15px;
+}
+.attribution {
+  font-size: 14px;
+  margin: 1em 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.share-container.active {
+  display: flex;
+}
+main.active {
+  height: 500px;
+}
+@media (min-width: 800px) {
+  main {
+    display: flex;
+    width: 730px;
+    height: 280px;
+  }
+  .drawers {
+    border-radius: 10px 0 0 10px;
+    width: 285px;
+    height: 280px;
+    object-fit: cover;
+    object-position: 0% 100%;
+  }
+  .space-container {
+    padding: 30px 40px;
+  }
+  header {
+    font-size: 20px;
+  }
+  p {
+    margin-top: 10px;
+  }
+  .profile {
+    margin-top: 20px;
+  }
+  button {
+    left: 100px;
+  }
+  .share-container {
+    display: none;
+    background-color: var(--VeryDarkGrayishBlue);
+    border-radius: 10px;
+    padding: 1.1em 1.6em;
+    top: -77px;
+    width: 203px;
+    left: 225px;
+    border: 1px solid var(--VeryDarkGrayishBlue);
+  }
+  .share-container::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 2.8em auto 0;
+    width: 0;
+    height: 0;
+    border-top: 13px solid var(--VeryDarkGrayishBlue);
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+  }
+  button:hover {
+    background-color: var(--GrayishBlue);
+    color: white;
+  }
+  main.active {
+    height: unset;
+  }
+}

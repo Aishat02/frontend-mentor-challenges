@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <main>
+      <img src="./images/drawers.jpg" alt="drawers" class="drawers" />
+      <div class="container">
+        <div class="space-container">
+          <header>
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </header>
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+
+          <div class="profile-container">
+            <div class="profile">
+              <img
+                src="./images/avatar-michelle.jpg"
+                alt="female avatar"
+                class="avatar"
+              />
+              <div class="name">
+                Michelle Appleton<br />
+                <span class="date">28 Jun 2020</span>
+              </div>
+
+              <div>
+                <div class="share-container" id="container">
+                  <div class="share-text">Share</div>
+                  <div class="share-images">
+                    <a href="https://www.facebook.com/" target="_blank"
+                      ><img
+                        src="./images/icon-facebook.svg"
+                        alt="Share on Facebook"
+                    /></a>
+                    <a href="https://www.x.com/" target="_blank"
+                      ><img src="./images/icon-twitter.svg" alt="Share on X"
+                    /></a>
+                    <a href="https://www.pinterest.com/" target="_blank"
+                      ><img
+                        src="./images/icon-pinterest.svg"
+                        alt="Share on Pinterest"
+                    /></a>
+                  </div>
+                  <!--.share-images closing tag-->
+                </div>
+                <!--.share-container closing tag-->
+                <button onclick="contactLinks()">
+                  <img src="./images/icon-share.svg" alt="share" />
+                </button>
+              </div>
+              <!--.empty div closing tag-->
+            </div>
+            <!--.profile closing tag-->
+          </div>
+          <!--.profile-container closing tag-->
+        </div>
+        <!--.space-container closing tag-->
+      </div>
+      <!--.container closing tag-->
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/Aishat02">Aris</a>❤️.
+    </footer>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
