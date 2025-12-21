@@ -1,0 +1,144 @@
+:root {
+  --LightCyan: hsl(193, 38%, 86%);
+  --NeonGreen: hsl(150, 100%, 66%);
+  --GrayishBlue: hsl(217, 19%, 38%);
+  --DarkGrayishBlue: hsl(217, 19%, 24%);
+  --DarkBlue: hsl(218, 23%, 16%);
+}
+body {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--DarkBlue);
+  font-family: "Manrope", sans-serif;
+  margin: 0 auto;
+  color: var(--LightCyan);
+}
+main {
+  width: 343px;
+  background-color: var(--DarkGrayishBlue);
+  border-radius: 11px;
+  padding-bottom: 1.4em;
+}
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 10px;
+  color: var(--NeonGreen);
+  margin: 40px 0 0 4px;
+}
+p {
+  font-size: 23px;
+  padding: 3px 26px 3px 28px;
+}
+.images-container {
+  height: 60px;
+}
+button {
+  width: 64px;
+  border-radius: 100%;
+  background-color: var(--NeonGreen);
+  height: 64px;
+  outline: none;
+  border: none;
+  margin: 27px 0 0 0;
+  transition: all 0.4s ease-in-out;
+}
+.dice {
+  padding-top: 3px;
+}
+button:hover {
+  cursor: url("../images/cursor.svg"), auto;
+  box-shadow: 0 0 20px var(--NeonGreen);
+}
+.dice.active {
+  transform: rotate(40deg);
+  padding: 0 0 0 3px;
+  animation: x 250ms ease 0.5ms infinite both;
+}
+@keyframes x {
+  100% {
+    transform: rotate(120deg);
+  }
+}
+.toast {
+  display: none;
+}
+.toast.active {
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: 25%;
+  height: 25px;
+  background: var(--DarkGrayishBlue);
+  padding: 16px 0 16px 20px;
+  width: 160px;
+}
+.toast.active::before {
+  content: "!";
+  position: absolute;
+  display: block;
+  background-color: red;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  left: 14px;
+}
+.toast.active::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: yellow;
+  top: 53px;
+  left: 0;
+  transform: scaleX(1);
+  transform-origin: left;
+  animation: y 10s linear 0ms forwards;
+}
+@keyframes y {
+  100% {
+    transform: scaleX(0);
+    background-color: red;
+  }
+}
+.attribution {
+  font-size: 14px;
+  margin-top: 3em;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (min-width: 800px) {
+  main {
+    width: 540px;
+    padding-bottom: 1.9em;
+  }
+  h1 {
+    letter-spacing: 3.5px;
+    font-size: 14px;
+    margin-top: 47px;
+  }
+  p {
+    font-size: 27.5px;
+    padding: 25px 45px 0px 47px;
+    margin: 0;
+  }
+  .images-container {
+    padding-top: 2.6em;
+  }
+  .bar {
+    padding: 0 48px;
+  }
+  button {
+    margin: 35px 0 0 0;
+  }
+  .toast.active {
+    top: 0;
+    left: 40%;
+  }
+}
