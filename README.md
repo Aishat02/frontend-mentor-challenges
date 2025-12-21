@@ -36,6 +36,7 @@ This repository contains my solutions to various Frontend Mentor challenges. Eac
 | **Product Preview Card**    | [View Demo](https://aris-product-preview-card.netlify.app/)       | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/product-preview-card-component-main) | `HTML` `CSS`     |
 | **Order Summary Component** | [View Demo](https://aris-order-summary-challenge.netlify.app/)    | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/order-summary-component-main)        | `HTML` `CSS`     |
 | **NFT Preview Card**        | [View Demo](https://aris-nft-preview-card-challenge.netlify.app/) | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/nft-preview-card-component-main)     | `HTML` `CSS`     |
+| **Social Links Profile**    | [View Demo](https://aris-social-links-profile.netlify.app/)       | [View Code](https://github.com/Aishat02/frontend-mentor-challenges/tree/main/social-links-profile-main)           | `HTML` `CSS`     |
 
 ### Junior Level
 
